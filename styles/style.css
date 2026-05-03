@@ -250,7 +250,7 @@ h1 span {
   }
 
   .cabecalho__menu {
-    justify-content: center;
+    justify-content: space-around;
     gap: 1.5rem;
   }
 
@@ -294,6 +294,7 @@ h1 span {
 @media (max-width: 480px) {
   .cabecalho__menu {
     gap: 1rem;
+    justify-content: space-around;
   }
 
   .cabecalho__menu__link {
