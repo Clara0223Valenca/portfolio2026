@@ -309,4 +309,11 @@ h1 span {
     max-width: 95%;
     width: 95%;
   }
+
+  .apresentacao__links__botoes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
 }
